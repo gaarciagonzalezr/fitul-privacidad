@@ -1,1 +1,65 @@
 # fitul-privacidad
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Privacidad de Fitul</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap">
+<style>
+/* Página de texto legal: una columna de lectura, índice lateral en escritorio. */
+:root{--bg:#F4F6F8;--surface:#fff;--ink:#0E1A2B;--muted:#586376;--line:#DAE0E7;--accent:#D6451A;--blue:#1F4FD8;--fd:'Barlow Condensed','Arial Narrow',sans-serif;--fb:'Barlow',system-ui,-apple-system,'Segoe UI',sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0C121B;--surface:#141C28;--ink:#E8EDF3;--muted:#93A0B2;--line:#243044;--accent:#FF7A45;--blue:#7B9DFF;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0C121B;--surface:#141C28;--ink:#E8EDF3;--muted:#93A0B2;--line:#243044;--accent:#FF7A45;--blue:#7B9DFF;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 var(--fb);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+.wrap{max-width:980px;margin:0 auto;display:grid;grid-template-columns:200px minmax(0,1fr);gap:40px;align-items:start}
+header{grid-column:1/-1;display:flex;flex-direction:column;gap:6px;padding-bottom:20px;border-bottom:1px solid var(--line)}
+.brand{font-family:var(--fd);font-weight:700;font-size:1.3rem;display:flex;align-items:center;gap:8px}
+.brand i{width:24px;height:24px;border-radius:50%;border:5px solid var(--accent);border-right-color:var(--blue);display:inline-block}
+h1{font-family:var(--fd);font-weight:700;font-size:2.6rem;line-height:1.05;margin:0;text-wrap:balance}
+.upd{color:var(--muted);font-size:.95rem}
+nav{position:sticky;top:24px;display:flex;flex-direction:column;gap:2px;font-size:.92rem}
+nav a{color:var(--muted);text-decoration:none;padding:5px 10px;border-left:2px solid var(--line)}
+nav a:hover{color:var(--ink);border-color:var(--accent)}
+main{min-width:0;max-width:68ch}
+section{padding-top:8px;margin-bottom:26px;scroll-margin-top:20px}
+h2{font-family:var(--fd);font-weight:700;font-size:1.55rem;margin:0 0 8px;line-height:1.15}
+p{margin:0 0 10px}ul{margin:0 0 10px;padding-left:1.2em}li{margin-bottom:6px}
+a{color:var(--blue)}
+b{font-weight:600}
+:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+@media (max-width:760px){.wrap{grid-template-columns:minmax(0,1fr);gap:20px}nav{position:static;flex-direction:row;flex-wrap:wrap;gap:6px}nav a{border:1px solid var(--line);border-radius:99px;padding:4px 10px}h1{font-size:2.1rem}}
+</style>
+<div class="wrap">
+<header><div class="brand"><i></i>Fitul</div><h1>Política de privacidad de Fitul</h1><span class="upd">Última actualización: 23 de noviembre de 2026</span></header>
+<nav aria-label="Secciones">
+<a href="#s1">1. Responsable</a><a href="#s2">2. La aplicación</a><a href="#s3">3. Datos que tratamos</a><a href="#s4">4. Uso y base legal</a><a href="#s5">5. Quién ve tus datos</a><a href="#s6">6. Proveedores</a><a href="#s7">7. Conservación</a><a href="#s8">8. Tus derechos</a><a href="#s9">9. Menores</a><a href="#s10">10. Seguridad</a><a href="#s11">11. Cambios</a>
+</nav>
+<main>
+<section id="s1"><h2>1. Responsable del tratamiento</h2><p>Raúl García González, persona física.</p><p>Correo de contacto: <a href="mailto:fitul.online@gmail.com">fitul.online@gmail.com</a></p></section>
+<section id="s2"><h2>2. Qué es esta aplicación</h2><p>Fitul permite a un entrenador planificar entrenamientos y controlar la carga de sus deportistas, y a estos registrar su actividad y comunicarse con él. La aplicación no ofrece diagnóstico ni asesoramiento médico.</p></section>
+<section id="s3"><h2>3. Datos que tratamos</h2><ul>
+<li><b>Cuenta:</b> nombre, correo electrónico, contraseña (almacenada de forma cifrada por el proveedor de autenticación), rol (entrenador o deportista) y la fecha en que aceptaste esta política.</li>
+<li><b>Datos personales, antropométricos y fisiológicos que introduces:</b> sexo, peso, altura, perímetros de cintura, brazo y pierna, frecuencia cardíaca máxima, en reposo y de reserva, y valores calculados a partir de ellos (por ejemplo, el IMC). Son datos relativos a la salud.</li>
+<li><b>Datos de entrenamiento:</b> sesiones programadas, ejercicios, pesos levantados, repeticiones, RIR, carácter del esfuerzo, duración, distancia, ritmos, frecuencia cardíaca, percepción del esfuerzo (RPE) y métricas derivadas (tonelaje, monotonía, strain, TRIMP, sRPE).</li>
+<li><b>Mensajes, fotos y vídeos</b> que intercambias con tu entrenador. El entrenador también puede subir fotos y vídeos de ejercicios.</li>
+<li><b>Datos técnicos:</b> tu dispositivo guarda tu sesión y la fecha de tus últimas visitas para mostrar avisos. El proveedor de alojamiento puede registrar datos técnicos, como la dirección IP, por motivos de seguridad.</li></ul>
+<p>La aplicación no incluye publicidad ni herramientas de análisis o seguimiento de terceros, y no vendemos tus datos.</p></section>
+<section id="s4"><h2>4. Para qué usamos tus datos y base legal</h2><ul>
+<li>Crear y gestionar tu cuenta y prestarte el servicio: ejecución del contrato (art. 6.1.b del RGPD).</li>
+<li>Tratar tus datos de salud y de entrenamiento: con tu consentimiento explícito (art. 9.2.a del RGPD), que das al registrarte. Puedes retirarlo en cualquier momento eliminando tu cuenta o escribiéndonos.</li>
+<li>Garantizar la seguridad del servicio: interés legítimo (art. 6.1.f del RGPD).</li></ul></section>
+<section id="s5"><h2>5. Quién puede ver tus datos</h2><ul>
+<li>Tu entrenador, que es la persona que te dio tu código de acceso, ve tus datos personales, tu calendario, tus registros, tus resúmenes y vuestros mensajes.</li>
+<li>Los demás deportistas nunca ven tus datos.</li>
+<li>Los deportistas solo ven las fotos y vídeos de ejercicios que su entrenador ha aprobado.</li></ul></section>
+<section id="s6"><h2>6. Proveedores que tratan datos por nuestra cuenta</h2><ul>
+<li><b>Supabase:</b> base de datos, autenticación y almacenamiento de archivos. Los datos se alojan en servidores situados en Irlanda (Unión Europea). Supabase actúa como encargado del tratamiento. Cuando haya transferencias fuera del Espacio Económico Europeo, se aplican las garantías adecuadas previstas en el RGPD.</li>
+<li><b>Apple:</b> distribución de la aplicación a través de la App Store y TestFlight.</li></ul>
+<p>No cedemos tus datos a otros terceros, salvo obligación legal.</p></section>
+<section id="s7"><h2>7. Conservación y eliminación</h2><p>Conservamos tus datos mientras mantengas tu cuenta. Puedes eliminarla desde la aplicación (Inicio &gt; Eliminar mi cuenta): se borran tu perfil, tus datos, entrenamientos, registros, mensajes y los archivos que enviaste. Los mensajes de la conversación desaparecen también para la otra persona. Las copias de seguridad técnicas que pueda mantener el proveedor, si existen, se eliminan en los plazos que este establece. Si el entrenador elimina su cuenta, sus deportistas conservan la suya, pero pierden el vínculo con él y con su biblioteca.</p></section>
+<section id="s8"><h2>8. Tus derechos</h2><p>Puedes ejercer tus derechos de acceso, rectificación, supresión, limitación, oposición y portabilidad, y retirar tu consentimiento en cualquier momento (sin que ello afecte al tratamiento anterior), escribiendo a <a href="mailto:fitul.online@gmail.com">fitul.online@gmail.com</a>. Responderemos en el plazo máximo de un mes. También puedes presentar una reclamación ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es" target="_blank" rel="noopener">www.aepd.es</a>).</p></section>
+<section id="s9"><h2>9. Menores</h2><p>La aplicación no está dirigida a menores de 18 años.</p></section>
+<section id="s10"><h2>10. Seguridad</h2><p>Las comunicaciones con la aplicación van cifradas y cada usuario solo accede a sus propios datos mediante reglas de seguridad en la base de datos. Aplicamos medidas técnicas y organizativas razonables, aunque ningún sistema es completamente seguro.</p></section>
+<section id="s11"><h2>11. Cambios en esta política</h2><p>Si modificamos esta política, publicaremos aquí la nueva versión con su fecha y, si el cambio es importante, te avisaremos en la aplicación.</p></section>
+</main></div>
+
+</body></html>
